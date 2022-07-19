@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ukr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Allin</title>
+  </head>
+  <body>
+    <section class="home">
+      <div class="container animate__animated animate__zoomIn">
+        <img class="home-image" src="./image/home-image.png" alt="home-image" />
+        <button class="hookah-btn" data-hookah-open></button>
+        <button class="coffe-btn" data-coffe-open></button>
+        <button class="ps-ptn" data-ps-open></button>
+        <button class="drink-btn" data-drink-open></button>
+      </div>
+    </section>
+    <div class="hookah-menu is-hidden-mob" data-hookah>
+      <button data-hookah-close></button>
+    </div>
+    <div class="coffe-menu is-hidden-mob" data-coffe>
+      <button data-coffe-close></button>
+    </div>
+    <div class="ps-menu is-hidden-mob" data-ps>
+      <button data-ps-close></button>
+    </div>
+    <div class="drink-menu is-hidden-mob" data-drink>
+      <button data-drink-close></button>
+    </div>
+    <script src="./js/hookah.js"></script>
+    <script src="./js/coffe.js"></script>
+    <script src="./js/ps.js"></script>
+    <script src="./js/drink.js"></script>
+  </body>
+</html>
