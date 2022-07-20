@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap"
       rel="stylesheet"
     />
     <title>Allin</title>
@@ -28,14 +28,109 @@
     <section class="home">
       <div class="container animate__animated animate__zoomIn">
         <img class="home-image" src="./image/home-image.png" alt="home-image" />
-        <button class="hookah-btn" data-hookah-open></button>
-        <button class="coffe-btn" data-coffe-open></button>
-        <button class="ps-ptn" data-ps-open></button>
-        <button class="drink-btn" data-drink-open></button>
+        <button class="hookah-btn" type="button" data-hookah-open></button>
+        <button class="coffe-btn" type="button" data-coffe-open></button>
+        <button class="ps-ptn" type="button" data-ps-open></button>
+        <button class="drink-btn" type="button" data-drink-open></button>
+        <button class="info-btn" type="button" data-info-open></button>
       </div>
     </section>
     <div class="hookah-menu is-hidden-mob" data-hookah>
       <button class="back-btn" data-hookah-close></button>
+      <div class="hookah_border">
+        <p class="hookah__title">HOOKAH</p>
+        <p class="hookah__price">Price:</p>
+        <ul class="hookah-list">
+          <li class="hookah-list__item">
+            <p class="hookah-list__text">Легкий (міцність 1-4) - 230</p>
+          </li>
+          <li class="hookah-list__item">
+            <p class="hookah-list__text">Середній (міцність 5-6) - 260</p>
+          </li>
+          <li class="hookah-list__item">
+            <p class="hookah-list__text">Важкий (міцність 7-10) - 300</p>
+          </li>
+        </ul>
+        <p class="tabaco_title">Асортимент табака:</p>
+        <ul class="hookah-list_tabaco">
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img unity"
+              src="./image/utity.jpg"
+              alt="unity"
+              width="80"
+              height="80"
+            />
+          </li>
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img"
+              src="./image/four.png"
+              alt="4:20"
+              width="80"
+              height="80"
+            />
+          </li>
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img"
+              src="./image/loud.png"
+              alt="loud"
+              width="50"
+              height="50"
+            />
+          </li>
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img"
+              src="./image/serbetli.jpg"
+              alt="serbetli"
+              width="50"
+              height="50"
+            />
+          </li>
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img"
+              src="./image/molfar.png"
+              alt="molfar"
+              width="50"
+              height="50"
+            />
+          </li>
+          <li class="hookah-list_tabaco__item">
+            <img
+              class="hookah-list_tabaco__img"
+              src="./image/light.png"
+              alt="light"
+              width="50"
+              height="50"
+            />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="info-menu is-hidden-mob" data-info>
+      <button class="back-btn" data-info-close></button>
+      <p class="info__title">Allin</p>
+      <p class="info__text">
+        ALLin це затишний заклад з унікальним дизайном та затишною атмосферою.В нас Ви можете
+        відпочити граючи улюблені ігри на PS, смакуючи димний кальян. <br />
+        <br />
+        У нас є 5 окремих затишних кімнат на двох до чотирьох людей. <br />
+        <br />
+        Одна велика кімната на 10-12 людей де ви зможете зібрати усіх друзів та відсвяткувати будь
+        яке св’ято. <br />
+        <br />
+        В ALLin діє безліміт на каву та чай. <br />
+        <br />
+        У нас немає кухні, проте ви можете приносити їду з собою або замовити курєрською доставкою.
+        <br />
+        <br />
+        Великий вибір освіжаючих безалкогольних напоїв. <br />
+        <br />
+        Отож бронюй місце, бери друзі та приходь до нас відпочивати!
+      </p>
     </div>
     <div class="coffe-menu is-hidden-mob" data-coffe>
       <button class="back-btn" data-coffe-close></button>
@@ -50,5 +145,6 @@
     <script src="./js/coffe.js"></script>
     <script src="./js/ps.js"></script>
     <script src="./js/drink.js"></script>
+    <script src="./js/info.js"></script>
   </body>
 </html>
