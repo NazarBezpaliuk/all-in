@@ -26,6 +26,7 @@
   left: 8%;
   fill: rgb(34, 32, 32);
   transform: rotate(45deg);
+  animation: telephone 3s linear infinite;
 }
 .google {
   position: absolute;
@@ -33,6 +34,7 @@
   left: 10%;
   fill: rgb(34, 32, 32);
   transform: rotate(20deg);
+  animation: google 3s linear infinite;
 }
 .instagram {
   position: absolute;
@@ -40,4 +42,5 @@
   left: 12%;
   fill: rgb(34, 32, 32);
   transform: rotate(-35deg);
+  animation: inst 3s linear infinite;
 }
