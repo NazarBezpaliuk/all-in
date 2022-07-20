@@ -18,6 +18,7 @@
   );
   transform: translateX(0);
   transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
+  padding: 10px;
 }
 .ps-menu.is-hidden-mob {
   transform: translateX(100%);
@@ -31,4 +32,38 @@
   right: 20px;
   background-color: transparent;
   outline: none;
+}
+.ps__title {
+  // text-align: center;
+  font-size: 40px;
+  margin-top: 30%;
+  margin-bottom: 20px;
+  // font-weight: 700;
+}
+.ps__price {
+  // text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px;
+  // font-family: 'Russo One', sans-serif;
+  font-weight: 600;
+}
+.ps__text {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Russo One', sans-serif;
+  margin-bottom: 40px;
+}
+.ps-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -20px;
+  margin-right: -20px;
+}
+.ps-list__item {
+  width: calc(100% / 3 - 20px);
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.ps-list__img {
+  width: 100%;
 }
