@@ -93,6 +93,7 @@ img {
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  overflow: auto;
 }
 
 .hookah-menu.is-hidden-mob {
@@ -292,6 +293,9 @@ img {
   transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
   padding-top: 20px;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .info-menu.is-hidden-mob {
@@ -300,17 +304,16 @@ img {
 
 .info__text {
   text-align: center;
-  position: absolute;
   top: 65%;
   left: 50%;
   font-weight: 700;
   font-size: 19px;
   width: 310px;
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .info__title {
   text-align: center;
   font-size: 70px;
   font-weight: 700;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
