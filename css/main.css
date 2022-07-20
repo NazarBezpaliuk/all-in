@@ -47,6 +47,15 @@
   transform: translateX(100%);
 }
 
+.ps-coffe__text {
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+  font-size: 30px;
+  margin-top: 50%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .drink-menu {
   position: fixed;
   top: 0;
@@ -177,8 +186,12 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  animation: shadow 3s linear infinite;
+  animation: shadow 1.5s linear infinite;
   outline: none;
+  transition: background-color 20ms linear;
+}
+.info-btn:active {
+  background-color: rgba(0, 0, 0, 0.61);
 }
 
 .info-menu {
@@ -284,7 +297,7 @@ img {
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.785);
   }
   50% {
-    box-shadow: inset 0px 0px 5px 5px rgba(0, 0, 0, 0.785);
+    box-shadow: inset 0px 0px 5px 7px rgba(0, 0, 0, 0.785);
   }
   75% {
     box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.785);

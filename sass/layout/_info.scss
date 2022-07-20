@@ -8,8 +8,12 @@
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  animation: shadow 3s linear infinite;
+  animation: shadow 1.5s linear infinite;
   outline: none;
+  transition: background-color 20ms linear;
+  &:active {
+    background-color: rgba(0, 0, 0, 0.61);
+  }
 }
 .info-menu {
   position: fixed;
