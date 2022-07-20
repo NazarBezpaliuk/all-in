@@ -28,6 +28,7 @@
   );
   transform: translateX(0);
   transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
+  padding: 5px;
 }
 .coffe-menu.is-hidden-mob {
   transform: translateX(100%);
@@ -39,4 +40,14 @@
   margin-top: 50%;
   font-weight: 600;
   text-transform: uppercase;
+}
+.coffe__title {
+  font-size: 60px;
+  margin-top: 20%;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.coffe__price {
+  font-family: 'Russo One', sans-serif;
+  font-size: 30px;
 }
