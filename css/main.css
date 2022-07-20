@@ -245,6 +245,7 @@
   transform: translateX(0);
   transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
   padding: 10px;
+  overflow: auto;
 }
 
 .ps-menu.is-hidden-mob {
