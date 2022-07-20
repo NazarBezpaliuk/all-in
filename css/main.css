@@ -186,6 +186,12 @@
   height: 100%;
 }
 
+.hookah_border_t {
+  border: 4px solid black;
+  padding: 7px;
+  border-radius: 13px;
+}
+
 .hookah-list__text {
   text-align: center;
   margin-bottom: 10px;
