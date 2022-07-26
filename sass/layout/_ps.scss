@@ -20,6 +20,7 @@
   transition: opacity 300ms linear, visibility 300ms linear, transform 300ms linear;
   padding: 10px;
   overflow: auto;
+  z-index: 10;
 }
 .ps-menu.is-hidden-mob {
   transform: translateX(100%);
@@ -43,7 +44,7 @@
 }
 .ps__price {
   // text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 20px;
   // font-family: 'Russo One', sans-serif;
   font-weight: 600;

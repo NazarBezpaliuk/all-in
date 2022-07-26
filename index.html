@@ -11,6 +11,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -29,25 +35,27 @@
   </head>
   <body>
     <section class="home">
-      <div class="container animate__animated animate__zoomIn">
-        <img class="home-image" src="./image/home-image.png" alt="home-image" />
-        <button class="hookah-btn" type="button" data-hookah-open></button>
-        <button class="coffe-btn" type="button" data-coffe-open></button>
-        <button class="ps-ptn" type="button" data-ps-open></button>
-        <button class="drink-btn" type="button" data-drink-open></button>
-        <button class="info-btn" type="button" data-info-open></button>
-        <a href="tel:+380730788803"
-          ><svg class="telefon" width="30" height="30">
-            <use href="./image/symbol-defs.svg#icon-phone"></use></svg
-        ></a>
-        <a href="https://goo.gl/maps/DyKkN5mywRXEhMkU7" target="blank"
-          ><svg class="google" width="30" height="30">
-            <use href="./image/symbol-defs.svg#icon-google"></use></svg
-        ></a>
-        <a href="https://www.instagram.com/allin_lounge_lviv/" target="blank"
-          ><svg class="instagram" width="30" height="30">
-            <use href="./image/symbol-defs.svg#icon-instagram"></use></svg
-        ></a>
+      <div class="container">
+        <div class="animate__animated animate__zoomIn">
+          <img class="home-image" src="./image/home-image.png" alt="home-image" />
+          <button class="hookah-btn" type="button" data-hookah-open></button>
+          <button class="coffe-btn" type="button" data-coffe-open></button>
+          <button class="ps-ptn" type="button" data-ps-open></button>
+          <button class="drink-btn" type="button" data-drink-open></button>
+          <button class="info-btn" type="button" data-info-open></button>
+          <a href="tel:+380730788803"
+            ><svg class="telefon" width="30" height="30">
+              <use href="./image/symbol-defs.svg#icon-phone"></use></svg
+          ></a>
+          <a href="https://goo.gl/maps/DyKkN5mywRXEhMkU7" target="blank"
+            ><svg class="google" width="30" height="30">
+              <use href="./image/symbol-defs.svg#icon-google"></use></svg
+          ></a>
+          <a href="https://www.instagram.com/allin_lounge_lviv/" target="blank"
+            ><svg class="instagram" width="30" height="30">
+              <use href="./image/symbol-defs.svg#icon-instagram"></use></svg
+          ></a>
+        </div>
       </div>
     </section>
     <div class="hookah-menu is-hidden-mob" data-hookah>
@@ -58,17 +66,17 @@
         <ul class="hookah-list">
           <li class="hookah-list__item">
             <p class="hookah-list__text">
-              <span>Легкий (міцність 1-4)</span><span>-</span><span>230</span>
+              <span>Легкий (міцність 1-4)</span><span>-</span><span>230₴</span>
             </p>
           </li>
           <li class="hookah-list__item">
             <p class="hookah-list__text">
-              <span>Середній (міцність 5-6)</span><span>-</span><span>260</span>
+              <span>Середній (міцність 5-6)</span><span>-</span><span>260₴</span>
             </p>
           </li>
           <li class="hookah-list__item">
             <p class="hookah-list__text">
-              <span>Важкий (міцність 7-10)</span><span>-</span><span>300</span>
+              <span>Важкий (міцність 7-10)</span><span>-</span><span>300₴</span>
             </p>
           </li>
         </ul>
@@ -139,7 +147,7 @@
           ALLin це затишний заклад з унікальним дизайном та затишною атмосферою.В нас Ви можете
           відпочити граючи улюблені ігри на PS, смакуючи димний кальян. <br />
           <br />
-          У нас є 5 окремих затишних кімнат на двох до чотирьох людей. <br />
+          У нас є 5 окремих затишних кімнат від двох до чотирьох людей. <br />
           <br />
           Одна велика кімната на 10-12 людей де ви зможете зібрати усіх друзів та відсвяткувати будь
           яке св’ято. <br />
@@ -152,7 +160,7 @@
           <br />
           Великий вибір освіжаючих безалкогольних напоїв. <br />
           <br />
-          Отож бронюй місце, бери друзі та приходь до нас відпочивати!
+          Отож бронюй кімнату, бери друзі та приходь до нас відпочивати!
         </p>
       </div>
     </div>
@@ -162,7 +170,8 @@
         <p class="coffe__title">Кава/Чай</p>
         <p class="coffe__price">
           Зроби запашну каву або ароматний чай. Як і у більшості антикафе у нас самообслуговування.
-          Та за хороші чайові хтось з персоналу тобі залюбки допоможе з обслуговуванням &#128521;
+          Проте, за хороші чайові хтось з персоналу тобі залюбки допоможе з обслуговуванням
+          &#128521;
         </p>
       </div>
     </div>
@@ -215,42 +224,42 @@
           <li class="drink-list__item">
             <p class="drink-list__item_text">
               <span class="drink-text__name">Cocacola</span><span class="ml">0,33</span
-              ><span>25грн.</span>
+              ><span>25₴</span>
             </p>
           </li>
           <li class="drink-list__item">
             <p class="drink-list__item_text">
               <span class="drink-text__name">Sprite</span><span class="ml">0,33</span
-              ><span>25грн.</span>
+              ><span>25₴</span>
             </p>
           </li>
           <li class="drink-list__item">
             <p class="drink-list__item_text">
               <span class="drink-text__name">Fanta</span><span class="ml">0,33</span
-              ><span>25грн.</span>
+              ><span>25₴</span>
             </p>
           </li>
           <li class="drink-list__item">
             <p class="drink-list__item_text">
               <span class="drink-text__name">Schweppes</span><span class="ml">0,33</span
-              ><span>25грн.</span>
+              ><span>25₴</span>
             </p>
           </li>
           <li class="drink-list__item">
             <p class="drink-list__item_text">
               <span class="drink-text__name">Monster</span><span class="ml">0,33</span
-              ><span>55грн.</span>
+              ><span>55₴</span>
             </p>
           </li>
           <li class="drink-list__item">
             <p class="drink-list__item_text">
-              <span class="drink-text__name">Fuse</span><span class="ml">0,50</span
-              ><span>25грн.</span>
+              <span class="drink-text__name">Fuse</span><span class="ml">0,50</span><span>25₴</span>
             </p>
           </li>
         </ul>
       </div>
     </div>
+    <h1 class="home-title animate__animated animate__zoomIn">since 2016</h1>
     <script src="./js/hookah.js"></script>
     <script src="./js/coffe.js"></script>
     <script src="./js/ps.js"></script>

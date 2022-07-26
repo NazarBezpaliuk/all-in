@@ -6,6 +6,9 @@
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }
+.home {
+  overflow: hidden;
+}
 
 .back-btn {
   background-color: transparent;
@@ -43,4 +46,18 @@
   fill: rgb(34, 32, 32);
   transform: rotate(-35deg);
   animation: inst 3s linear infinite;
+}
+.home-title {
+  color: rgb(255, 255, 0);
+  font-family: 'Cinzel', serif;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  animation: hidden 7s linear infinite;
 }

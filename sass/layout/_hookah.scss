@@ -32,6 +32,7 @@
   padding-left: 10px;
   padding-right: 10px;
   overflow: auto;
+  z-index: 10;
 }
 .hookah-menu.is-hidden-mob {
   transform: translateX(100%);
@@ -41,6 +42,7 @@
   border-radius: 50%;
 }
 .hookah__title {
+  padding-top: 15px;
   text-align: center;
   font-size: 60px;
   margin-bottom: 20px;
